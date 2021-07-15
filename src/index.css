@@ -1,0 +1,71 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header{
+  padding: 15px 8px;
+  background-color: rgba(255, 127, 80, 0.781);
+  box-shadow: 0px 0px 10px ;
+  text-align: left;
+  color: chocolate;
+  text-shadow: 3px 3px 5px;
+}
+.logo{
+  color: chocolate;
+}
+.keep{
+  width:100vw;
+  height: 100vh;
+  position: relative;
+}
+.content{
+  padding: 10px;
+  max-width: 30%;
+  margin: 16px auto;
+}
+.content input{
+  border: none;
+  outline: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 8px 0px;
+}
+.content textarea{
+  border: none;
+  margin: 6px 0px;
+}
+.content textarea:focus
+{
+  border: none;
+  outline: none;
+}
+::placeholder{
+  color: orange;
+}
+.btn:hover{
+  background-color: cornsilk;
+  color: chartreuse;
+}
+.note{
+  width: 20%;
+  padding: 8px;
+  margin: 0px 10px;
+}
+.delete_icon{
+  padding: 3px;
+  background-color: red;
+  color: aliceblue;
+  border-radius: 50%;
+}
+.delete_icon:hover{
+  color: red;
+  background-color: black;
+}
+.footer{
+  position: absolute;
+ bottom: 5px;
+ left: 50vw;
+}
